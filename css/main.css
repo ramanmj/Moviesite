@@ -1,0 +1,65 @@
+
+.slick-prev,.slick-next{
+ position: absolute;
+ top:50%;
+ z-index: 1;
+ color: white;
+} 
+
+.slick-prev {
+	left: 10px;
+}
+.slick-next {
+	right: 10px;
+}
+
+ul li:hover {
+     color: white;
+}
+header ul li:hover {
+     color: gray;
+}
+
+.gen ul li:hover {
+     color: white;
+}
+.slick-arrow: hover {
+    color: black;
+}
+
+.genre ul li{
+    width: 33%;
+}
+
+.genre {
+    background-color:#151525;
+    z-index: 1;
+    left: 110px;
+    padding: 20px;
+    top: 40px;
+}
+
+.nav{
+   display: inline-block;
+   position: relative;
+}
+
+.gen:hover .genre{
+    display: block;
+}
+
+.fav {
+    background-color:#151525;
+    z-index: 1;
+    left: -4px;
+    padding: 15px 40px;
+    top: 26px;
+}
+.profile:hover .fav{
+    display: block;
+}
+
+.video{
+    height: inherit;
+    width: 100%;
+}
